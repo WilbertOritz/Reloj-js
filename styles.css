@@ -32,7 +32,6 @@ button:hover{
 }
 
 .reloj-container{
-    /* background-color: #2c3e50;  */
     background-color: transparent;
 }
 
@@ -50,3 +49,26 @@ button:hover{
     padding: 0.5rem;
 }
 
+.github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #2c3e50; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.github-link:hover {
+    background-color: coral; 
+}
+
+.fab.fa-github {
+    font-size: 24px;
+}
