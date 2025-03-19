@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Monospace;
+}
+
+nav{
+    background-color: #566573;
+    padding: 20px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.generic-container{
+    background-color: #17202a;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.reloj-container{
+    /* background-color: #2c3e50;  */
+    background-color: transparent;
+}
+
+.reloj-text{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+.fecha-reloj{
+    text-align: center;
+    color: #566573 ;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
